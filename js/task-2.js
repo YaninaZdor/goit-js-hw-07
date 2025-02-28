@@ -47,5 +47,4 @@ const galleryImages = document.querySelectorAll(".gallery-image");
 galleryImages.forEach((img) => {
   img.style.width = "300px";
   img.style.height = "auto";
-  img.style.borderRadius = "8px";
 });
