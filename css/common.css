@@ -137,11 +137,3 @@ input:hover input:focus {
 .login-form button:hover .login-form button:focus {
   background-color: (108, 140, 255, 1);
 }
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  row-gap: 48px;
-  column-gap: 24px;
-}

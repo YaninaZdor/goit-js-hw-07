@@ -39,6 +39,9 @@ const galleryItemsMarkup = images
 
 gallery.insertAdjacentHTML("beforeend", galleryItemsMarkup);
 
+gallery.style.display = "flex";
+gallery.style.flexWrap = "wrap";
+gallery.style.gap = "24px";
 gallery.style.listStyle = "none";
 gallery.style.padding = "0";
 gallery.style.margin = "0";
